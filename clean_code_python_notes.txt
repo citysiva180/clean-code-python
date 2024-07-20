@@ -1,0 +1,47 @@
+██████╗ ██╗   ██╗████████╗██╗  ██╗ ██████╗ ███╗   ██╗     ██████╗██╗     ███████╗ █████╗ ███╗   ██╗     ██████╗ ██████╗ ██████╗ ███████╗
+██╔══██╗╚██╗ ██╔╝╚══██╔══╝██║  ██║██╔═══██╗████╗  ██║    ██╔════╝██║     ██╔════╝██╔══██╗████╗  ██║    ██╔════╝██╔═══██╗██╔══██╗██╔════╝
+██████╔╝ ╚████╔╝    ██║   ███████║██║   ██║██╔██╗ ██║    ██║     ██║     █████╗  ███████║██╔██╗ ██║    ██║     ██║   ██║██║  ██║█████╗  
+██╔═══╝   ╚██╔╝     ██║   ██╔══██║██║   ██║██║╚██╗██║    ██║     ██║     ██╔══╝  ██╔══██║██║╚██╗██║    ██║     ██║   ██║██║  ██║██╔══╝  
+██║        ██║      ██║   ██║  ██║╚██████╔╝██║ ╚████║    ╚██████╗███████╗███████╗██║  ██║██║ ╚████║    ╚██████╗╚██████╔╝██████╔╝███████╗
+╚═╝        ╚═╝      ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝     ╚═════╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝     ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝
+                                                                                                                                        
+--------------
+Topics covered
+-------------- 
+
+- Introduction, Clean code and Formatting 
+- Pythonic code 
+- General Traits of Good Code 
+- Solid Principles 
+- Decorators to improve code - a must read 
+- Using Decorators to Improve code 
+- Getting More out of our objects with descriptors 
+- Using Generators 
+- Unit testing and refactoring 
+- Common Design Patterns 
+- Clean Architecture 
+
+--------------------------
+Docstrings and Annotations 
+--------------------------
+
+The most important part of this section is that docstrings is 
+part of your python code. meaning, if you want to access 
+what a particular function does, you could use the __doc__ 
+to read about it! 
+
+Second is docstrings are not comments. And comments do not 
+explain everything. 
+
+Here is an example for docstrings
+
+    def do_something():
+        """run something with this function"""
+        return "hello world"
+
+    print(do_something())
+
+    do_something.__doc__ 
+    # output - 'run something with this function'
+    
+
